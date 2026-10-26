@@ -1,0 +1,24 @@
+{
+  "name": "vetcare-root",
+  "version": "1.0.0",
+  "description": "VetCare — Sistema Integral de Gestión Veterinaria (Monorepo Académico)",
+  "scripts": {
+    "install:all": "cd backend && npm install && cd ../frontend && npm install",
+    "build:all": "cd backend && npm run build && cd ../frontend && npm run build",
+    "dev:backend": "cd backend && npm run dev",
+    "dev:frontend": "cd frontend && npm run dev",
+    "start:backend": "cd backend && npm start",
+    "check:db": "cd backend && npm run check:db",
+    "seed:admin": "cd backend && npm run seed:admin",
+    "test:backend": "cd backend && npm test"
+  },
+  "keywords": [
+    "vetcare",
+    "react",
+    "node",
+    "express",
+    "mysql"
+  ],
+  "author": "VetCare Team",
+  "license": "ISC"
+}
